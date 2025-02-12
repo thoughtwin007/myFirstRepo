@@ -1,0 +1,145 @@
+//IF_ELSE:
+//ANS3:
+// let num=3;
+// function chkEvenOdd(num){
+//     if(num%2==0)return 'even';
+//     else return 'Odd';
+// }
+// console.log(chkEvenOdd(num))
+
+//ANS 4:
+// function chklog(islogged){
+//     if(islogged)return true;
+//     else return false;
+// }
+ 
+// ANS 5:
+// function isleap(year){
+//     if(year%4==0 && year %100!==0 || year%400==0 )return true;
+//     else false;
+// }
+
+//TERNERY and LOGICAL
+ans1:
+// let canvote,age;
+// canvote=age>18?true:false;
+
+ans 2:
+// if(cond1 && cond2)fun();
+
+ans3:
+// var a=12;
+// a=a||'Nothing'
+
+ans4:
+function chkpositive(num){
+return num>=0?'positive':negative;}
+
+ans5:
+let num=a??(a||'hello');
+
+lOOP:
+FOR:
+//ans 1;
+while(n<=10){
+    console.log(n)
+    n++;
+ 
+// ans 2:
+while(n<=10){
+    if(n%2==0)
+    console.log(n)
+    n++;
+}
+//ANS3:
+for(let i=10;i>=0;i--)console.log(i)
+ 
+ANS 4:
+for(let a=0;a<arr.length;a++)console.log(arr[a]);
+
+ans 5:
+function sum(arr){
+let add=0;
+for(let a=0;a<arr.length;a++){
+add=+arr[a];}return add;
+}
+
+//WHILE:
+
+//ANS1:
+let a=0;
+while(a<=5){
+console.log(a)a++;}
+
+//ans 2:
+let a=0;
+while(a<=5){
+if(a==3)break;
+console.log(a)a++;}
+
+// ANS3:
+var n=0,i=100;
+while(i){
+    n+=i
+    i--;
+}
+
+//ans 4:
+function printTable(num){
+ for(let i=0;i<=10;i++)console.log(num*i)
+}
+
+FOR OF:
+
+//ANS1:
+for(a of arr)console.log(a)
+
+//ans2:
+for(a of arr)sum+=a;
+
+//ans3:
+for(a of str)console.log(a)
+
+//ans4:
+function prop(arr){
+for(a of arr)console.log(a.key)}
+
+// ans 5:
+for(a of arr.entries())console.log(a)
+
+FOR IN:
+
+//ans1:
+for(a in arr)console.log(arr[a])
+
+//ans 2:
+for(a in chkarr)console.log(object.hasOwn(arr[a],chkarr[a])
+
+//ans 3:
+function countProp(obj){
+    let i=0
+for(a in obj)i++;
+return i;
+}
+
+// ans 5:
+function toArray(obj){
+    let arr=[];
+ for(a in obj)arr.push({a:obj[a]})
+    return arr;
+}
+
+//BREAK_CONTINUE:
+//ANS3:
+while(a<=10){
+if(a%2==0)continue;
+console.log(a)a++;}
+
+//ans4:
+while(a){
+if(str==='exit')break;}
+
+//ans 5:
+function firstEven(arr){
+for(var i=0;i<arr.length;i++)if (arr[i]%2==0)break;
+return i;}
