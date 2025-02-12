@@ -1,0 +1,107 @@
+//Data types:
+//ans 1:
+ function type(a){
+return typeof(a)}
+
+//ans 2:
+let a=Null;
+console.log(typeof(a))// it will print Object because typeof(null) will return you object ;
+
+//ans 3:
+ let str='123'
+function toNumber(str){
+return +str;}
+
+//ans 4:
+function chkArray(arrA){
+return isArray(arr);}
+
+
+//Variables:
+//ans1:
+let a=12;
+let a=1;// this will give you error as redeclaration is not allowed with let ;
+
+//ans 2:
+ const obj={
+name:'peter',
+age:12,}
+obj.age=15;// it will work because will we are changing its key's value reference of the object remains same ;
+
+//ans3:
+ console.log(a)
+var a; // here we are accessing or using a before its declaration
+
+//ans4:
+if(true){
+let a=12;}
+console.log(a);}
+
+//ans5:
+console.log(a)
+var a=12;
+console.log(b)// with let and const it will throw you reference error as before declaration the a and c will go in temperal dead zone
+let b=1;
+console.log(c)
+const c=3;
+
+
+Operators:
+ans 1:function compare(a,b){
+let dbEquals=(a==b);
+let trpEquals=(a===b);
+return [dbEquals,trpEquals];}
+
+ans 2: let a=NULL ?? "hello there"
+
+ans 3:let a=0;
+let b=(a)=>{if(!a){return true;}return false;}
+console.log(b(a));
+
+// ans 4:
+let a=12,b=1;
+console.log(a&&b)
+
+// ans 5:
+let arr=[1,2,3,4,5]
+var add=0;
+function sum(arr){
+    if(arr===null)return 0;
+    for(let a=0;a<arr.length;a++) add+=arr[a];
+    return add;
+}
+console.log(sum(arr));
+
+SWITCH:
+ans 3:
+let admin ="hello admin , have a nice day"
+let viewer="hello viewer , have a nice day"
+let editor="hello editor , have a nice day"
+let role=["admin","viewer","editor"]
+switch(role[Math.floor(Math.random()*3]{
+case role[0]:
+console.log(admin)
+break;
+case role[1]:
+console.log(viewer)
+break;
+case role[0]:
+console.log(editor)
+break;}
+
+ans 4:if(role[0]=='admin'){
+console.log(admin)}
+if(role[1]=='editor'){
+console.log(editor)}
+if(role[2]=='viewer')console.log(viewer);
+
+ans 5:
+
+CONDITIONAL LOGIC:
+let a=0;
+function tochk(a){
+    if(a>0)return 'no is positive'
+    else if (a<0) return "no is negative" 
+    else if (a==0)return 'zero'
+}
+console.log(tochk(a))
